@@ -1,0 +1,31 @@
+.card{
+  border:1px solid hsl(0,0%,80%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  margin:10px;
+  padding: 10px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.welcome-message{
+  background-color: green;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.prompt{
+  background-color: red;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
