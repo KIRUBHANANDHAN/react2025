@@ -5,6 +5,7 @@ import Food from './Food.jsx'
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
 import Increament from './Increament.jsx';
+import Accordion from './components/accordion/index.jsx';
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
   return(
     <>
     {/* <Header/> */}
+
+    <Accordion/>
+    
     <Food food={favFood} fruit={favFruit} hobbie={hobbie}/>
     <Food food='sambhar sadham' fruit='guava' hobbie='swimming'/>
     <Food/>
@@ -27,6 +31,9 @@ function App() {
     <List items={sampleObjects}> </List>
     <Footer/>
     <Increament/>
+
+    {/* {accoridan} */}
+   
     </>
 
   )
